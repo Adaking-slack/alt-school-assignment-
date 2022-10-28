@@ -1,0 +1,65 @@
+
+.formSideBar{
+    
+    width: 300px;
+    padding: 1em;
+    margin-left: 3em;
+    margin-top: 3em;
+    border: #D0D2E2 solid;
+
+    border-radius: 25px;
+}
+
+form{
+    border: RED;
+
+}
+
+
+input[type =text]{
+    font-size: 25px;
+}
+
+.details {
+    display: flex;
+   justify-content: center;
+   padding-top: 7em;
+   background-color: red;
+  
+}
+
+.details ul{
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    max-width: 100%;
+    background-color: aqua;
+    padding: 1em;
+}
+
+.details li{
+    list-style: none;
+}
+
+.text{
+    font-size: 20px;
+    width: 300px;
+    max-width: 100%;
+}
+
+.textName{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+/* .location{
+
+} */
+/* .mentors{
+
+}
+.text  li{
+    display: flex;
+    margin-left: auto;
+    float: right;
+} */
