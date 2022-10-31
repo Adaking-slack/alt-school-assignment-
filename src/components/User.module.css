@@ -19,22 +19,42 @@ form{
 input[type =text]{
     font-size: 25px;
 }
-
+img{
+    width: 300px;
+    padding-bottom: 15px;
+    border-radius: 50%;
+}
 .details {
     display: flex;
-   justify-content: center;
    padding-top: 7em;
-   background-color: red;
   
 }
 
 .details ul{
+    background-color: #F5CBCB;
+    padding: 7em;
+    box-shadow: 30px 30px #f1f1f1;
+
+    margin: 0 auto;
+    border-radius: 9%;
+}
+
+.details li{
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+button{
     display: flex;
-    justify-content: space-around;
-    width: 900px;
-    max-width: 100%;
-    background-color: aqua;
-    padding: 1em;
+    padding: 2em;
+   justify-content: center;
+   margin-top: 2em;
+   border-radius: 10%;
+   border: none;
+}
+
+ a{
+    text-decoration: none;
 }
 
 .details li{

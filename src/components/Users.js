@@ -47,16 +47,16 @@ console.log(user)
                                       <img src={picture.large} />
                                   </div>
                                   <div className={userCSS.text}>
-                                      <li className={userCSS.textName}>{name.title}, {name.first} {name.last}</li>
-                                      <li className={userCSS.location}>{location.city}</li>
-                                      <li>{gender}</li>
-                                      <li>{email}</li>
-                                      <li>{phone}</li>
+                                      <li className={userCSS.textName}>Name : {name.title}, {name.first} {name.last}</li>
+                                      <li className={userCSS.location}>Location: {location.city}</li>
+                                      <li>Gender:  {gender}</li>
+                                      <li> Email: {email}</li>
+                                      <li>Phone: {phone}</li>
                                   </div>
                              
 
                             
-                             <a href="#"><button>See More</button></a> 
+                             <a href="#" className="btn-link"><button>See More</button></a> 
                            </ul>
                           </div>
                       </div>
