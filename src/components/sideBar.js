@@ -6,7 +6,7 @@ export default function SideBar() {
             
                 <div id="sidebar">
              <div className="logo">
-                    <h1>fetchAuthor </h1>
+                    <h1>fetchMentor </h1>
 </div>
 
                     <nav>
