@@ -11,7 +11,7 @@ export default function Home() {
                 <h1>Welcome to fetchMentor</h1>
                 <p>You can get details of all the mentors avilable from fetchMentor</p>
                 
-                <NavLink to='/User'>Get all mentors</NavLink>
+                <NavLink to='/User' className="">Get all mentors</NavLink>
 </div>
         </div>
 

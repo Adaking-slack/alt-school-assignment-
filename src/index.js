@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import User from './components/Users';
 import App from './App';
+import Pagination from './components/pagination';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
@@ -51,6 +52,7 @@ const router = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
