@@ -30,6 +30,10 @@ export default function SideBar() {
                             <li>
                                 <NavLink to='/User'>Cloud Mentors</NavLink>
                             </li>
+
+                            <li>
+                                <NavLink to='/Error'>Error Page</NavLink>
+                            </li>
                         </ul>
 
                     </nav>
