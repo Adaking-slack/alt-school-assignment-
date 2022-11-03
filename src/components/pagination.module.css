@@ -1,6 +1,6 @@
 .pagList ul{
     display: flex;
-    color: red;
+    color: rgb(69, 65, 65);
     background-color: hwb(240 99% 0%);
     justify-content: space-around;
     font-size: 30px;
@@ -13,4 +13,8 @@
     padding: 1em;
     background-color: #ecebeb;
     border-radius: 50%;
+}
+
+a:hover{
+    color: black;
 }
